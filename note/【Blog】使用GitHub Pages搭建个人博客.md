@@ -17,7 +17,7 @@
 创建一个仓库并命名为 `<username>.github.io`，并且开启 `README` 文件。
 
 <p align="center">
-  <img src="../large_file/images/note_0_0.png" alt="pic1" style="max-width: 40%; height: auto;">
+  <img src="https://github.com/0x-0cd/0x-0cd.github.io/blob/main/large_file/images/note_0_0.png" alt="pic1" style="max-width: 40%; height: auto;">
 </p>
 
 然后通过 `https://<username>.github.io` 访问你的页面。
