@@ -12,7 +12,7 @@
 
 ## 学习笔记
 
-- [【Blog】使用GitHub Pages搭建个人博客](note/【Blog】使用GitHub%20Pages搭建个人博客.md)
+- [【Blog】使用GitHub Pages搭建个人博客](note/【Blog】使用GitHub%20Pages搭建个人博客)
 
 ## 问题修复
 
