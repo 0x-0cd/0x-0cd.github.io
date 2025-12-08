@@ -14,6 +14,8 @@
 
 - [【Blog】使用GitHub Pages搭建个人博客](note/【Blog】使用GitHub%20Pages搭建个人博客)
 
+- [【CS50】Harvard CS50](note/【CS50】Harvard%20CS50)
+
 ## 问题修复
 
 ## 编程感悟
