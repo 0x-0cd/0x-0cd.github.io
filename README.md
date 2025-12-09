@@ -16,6 +16,8 @@
 
 - [【CS50】Harvard CS50](note/【CS50】Harvard%20CS50)
 
+- [【Blog】Mermaid](note/【Blog】Mermaid)
+
 ## 问题修复
 
 ## 编程感悟
