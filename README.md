@@ -24,6 +24,8 @@
 
 ## 折腾日记
 
+- [【TODO】个人代办事项记录](trivia/【TODO】个人代办事项记录)
+
 ## 联系我
 
 - GitHub: https://github.com/0x-0cd
