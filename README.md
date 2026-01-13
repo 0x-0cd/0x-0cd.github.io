@@ -18,13 +18,15 @@
 
 - [【Blog】Mermaid](note/【Blog】Mermaid)
 
+- [Python 多线程 1](note/Python%20多线程%201)
+
 ## 问题修复
 
 ## 编程感悟
 
 ## 折腾日记
 
-- [【TODO】个人代办事项记录](trivia/【TODO】个人代办事项记录)
+- [【TODO】个人待办事项记录](trivia/【TODO】个人待办事项记录)
 
 ## 联系我
 
