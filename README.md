@@ -18,6 +18,8 @@
 
 - [【Blog】Mermaid](note/【Blog】Mermaid)
 
+- [Python 多线程 1](note/Python%20多线程%201)
+
 ## 问题修复
 
 ## 编程感悟
