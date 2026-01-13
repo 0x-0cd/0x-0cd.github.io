@@ -15,13 +15,13 @@
 到这一步，点击“自定义”
 
 <p align="center">
-  <img src="https://github.com/0x-0cd/0x-0cd.github.io/blob/draft/large_file/images/note_4_1.png" alt="pic1" style="max-width: 40%; height: auto;">
+  <img src="https://media.githubusercontent.com/media/0x-0cd/0x-0cd.github.io/main/large_file/images/note_4_1.png" alt="pic1" style="max-width: 40%; height: auto;">
 </p>
 
 勾选`Free-threaded Python`
 
 <p align="center">
-  <img src="https://github.com/0x-0cd/0x-0cd.github.io/blob/draft/large_file/images/note_4_2.png" alt="pic2" style="max-width: 40%; height: auto;">
+  <img src="https://media.githubusercontent.com/media/0x-0cd/0x-0cd.github.io/main/large_file/images/note_4_2.png" alt="pic2" style="max-width: 40%; height: auto;">
 </p>
 
 ### 无 GUI 环境
@@ -124,13 +124,13 @@ if __name__ == '__main__':
 上面这段程序在`cpython-3.13.5-macos-aarch64-none`版本的解释器下运行时，CPU利用率如下：
 
 <p align="center">
-  <img src="https://github.com/0x-0cd/0x-0cd.github.io/blob/draft/large_file/images/note_4_3.png" alt="pic1" style="max-width: 50%; height: auto;">
+  <img src="https://media.githubusercontent.com/media/0x-0cd/0x-0cd.github.io/main/large_file/images/note_4_3.png" alt="pic1" style="max-width: 50%; height: auto;">
 </p>
 
 切换到`cpython-3.14.2+freethreaded-macos-aarch64-none`版本，CPU利用率如下：
 
 <p align="center">
-  <img src="https://github.com/0x-0cd/0x-0cd.github.io/blob/draft/large_file/images/note_4_4.png" alt="pic1" style="max-width: 50%; height: auto;">
+  <img src="https://media.githubusercontent.com/media/0x-0cd/0x-0cd.github.io/main/large_file/images/note_4_4.png" alt="pic1" style="max-width: 50%; height: auto;">
 </p>
 
 可以看到提升还是很明显的，可以充分利用CPU的性能了。
