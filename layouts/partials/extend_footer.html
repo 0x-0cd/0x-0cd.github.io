@@ -1,0 +1,20 @@
+{{- /* Mermaid.js support */ -}}
+{{- if .Page.Store.Get "hasMermaid" }}
+<script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: 'default',
+      themeVariables: {
+        primaryColor: '#008c8c',
+        primaryTextColor: '#fff',
+        primaryBorderColor: '#008c8c',
+        lineColor: '#008c8c',
+        secondaryColor: '#d4edf0',
+        tertiaryColor: '#1a3a3a'
+      }
+    });
+  });
+</script>
+{{- end }}

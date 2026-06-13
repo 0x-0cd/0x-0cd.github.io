@@ -1,0 +1,93 @@
+/* ===== Emma's Teal Theme for PaperMod ===== */
+
+/* Light mode overrides */
+:root {
+    --radius: 10px;
+    --primary: #008c8c;
+    --secondary: #5a8a8a;
+    --tertiary: #d4edf0;
+    --theme: #f5fafb;
+    --entry: #ffffff;
+    --content: #2d3a3a;
+    --code-bg: #eef5f5;
+    --border: #c8e0e0;
+}
+
+/* Dark mode overrides */
+:root[data-theme="dark"] {
+    --primary: #00b3b3;
+    --secondary: #7ab3b3;
+    --tertiary: #1a3a3a;
+    --theme: #0d1b1b;
+    --entry: #142828;
+    --content: #cce0e0;
+    --code-block-bg: #0d1b1b;
+    --code-bg: #1a2e2e;
+    --border: #1e3a3a;
+}
+
+/* Profile mode image styling */
+.profile img {
+    border-radius: 50%;
+    border: 3px solid var(--primary);
+    padding: 3px;
+    background: var(--theme);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 140, 140, 0.4);
+}
+
+/* Button styling */
+.button {
+    transition: all 0.2s ease;
+    border: 1px solid var(--primary) !important;
+}
+
+.button:hover {
+    background: var(--primary) !important;
+    color: #fff !important;
+    transform: translateY(-2px);
+}
+
+/* Social icons color on hover */
+.social-icons a:hover {
+    color: var(--primary) !important;
+}
+
+/* Entry hover effect */
+.post-entry:hover {
+    border-color: var(--primary) !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 140, 140, 0.15);
+    transition: all 0.2s ease;
+}
+
+/* Top link (scroll to top) */
+.top-link {
+    background: var(--tertiary);
+    border: 1px solid var(--border);
+}
+
+.top-link:hover {
+    background: var(--primary);
+    color: #fff;
+}
+
+/* Theme toggle button */
+.theme-toggle:hover {
+    color: var(--primary) !important;
+}
+
+/* Footer styling */
+.footer a:hover {
+    color: var(--primary) !important;
+}
+
+/* Code copy button */
+.code-copy-btn:hover {
+    background: var(--primary) !important;
+    color: #fff !important;
+}

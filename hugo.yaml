@@ -1,0 +1,117 @@
+baseURL: "https://0x-0cd.github.io/"
+title: "0x0cd"
+theme: "PaperMod"
+defaultContentLanguage: "zh"
+enableInlineShortcodes: true
+
+languages:
+  zh:
+    label: "中文"
+    weight: 1
+
+params:
+  env: production
+  
+  # --- Profile Mode（首页就是个人名片）---
+  profileMode:
+    enabled: true
+    title: "`0x0cd`"
+    subtitle: "AI Agent Engineer · Building intelligent context engines & memory systems"
+    imageUrl: "/images/emma-avatar.jpg"
+    imageTitle: "Co-crafted with Emma"
+    imageWidth: 150
+    imageHeight: 150
+    buttons:
+      - name: "📝 Notes"
+        url: "/posts"
+      - name: "🔗 GitHub"
+        url: "https://github.com/0x-0cd"
+  
+  # --- Social Icons（跟 GitHub profile 保持一致）---
+  socialIcons:
+    - name: "email"
+      url: "mailto:qianneng99@gmail.com"
+    - name: "x"
+      url: "https://x.com/qianneng175867"
+    - name: "telegram"
+      url: "https://t.me/qianneng_99"
+    - name: "website"
+      url: "https://0x-0cd.github.io"
+  
+  # --- 主题配置 ---
+  defaultTheme: "auto"
+  disableThemeToggle: false
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowFullTextinRSS: false
+  ShowRssButtonInSectionTermList: false
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+  
+  # --- 首页信息模式（当 profileMode 关闭时的备用，咱们开了 profileMode 所以这个不影响）---
+  homeInfoParams:
+    title: "0x0cd"
+    content: "AI Agent Engineer"
+  
+  # --- 封面设置 ---
+  cover:
+    hiddenInList: false
+    hiddenInSingle: false
+  
+  # --- 编辑链接 ---
+  editPost:
+    URL: "https://github.com/0x-0cd/0x-0cd.github.io/tree/main/content"
+    Text: "Suggest Changes"
+    appendFilePath: true
+
+  # --- 搜索（启用 Fuse.js）---
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+# --- 菜单导航 ---
+menu:
+  main:
+    - identifier: posts
+      name: 📝 Notes
+      url: /posts/
+      weight: 10
+    - identifier: archives
+      name: 🗂️ Archives
+      url: /archives/
+      weight: 20
+    - identifier: search
+      name: 🔍 Search
+      url: /search/
+      weight: 30
+    - identifier: tags
+      name: 🏷️ Tags
+      url: /tags/
+      weight: 40
+
+# --- 文章分类 ---
+taxonomies:
+  category: categories
+  tag: tags
+
+# --- Markdown 渲染 ---
+markup:
+  highlight:
+    anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    lineNos: false
+    noClasses: false
+    style: native
+  goldmark:
+    renderer:
+      unsafe: true  # 允许 HTML 内嵌
