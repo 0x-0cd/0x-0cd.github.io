@@ -4,6 +4,13 @@ theme: "PaperMod"
 defaultContentLanguage: "zh"
 enableInlineShortcodes: true
 
+# --- 输出格式（搜索需要 JSON 生成索引）---
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
 languages:
   zh:
     label: "中文"
