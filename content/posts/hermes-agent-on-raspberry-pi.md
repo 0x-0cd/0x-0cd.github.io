@@ -7,7 +7,7 @@ tags: ["Hermes-Agent", "Raspberry-Pi", "AI-Agent", "Self-Hosting", "Optimization
 
 ## 为什么要在树莓派上跑 AI Agent？
 
-**TL;DR:** 树莓派 4B 4GB 跑 Hermes Agent 完全可行。RAM 是硬门槛，CPU 不是瓶颈，SD 卡 IO 和国内网络才是真正需要留意的地方。API 优先的架构让这块小板子能当 7×24 的 AI 助手，电费约等于一个 USB 小风扇。
+**太长不看版：** 树莓派 4B 4GB 跑 Hermes Agent 完全可行。RAM 是硬门槛，CPU 不是瓶颈，SD 卡 IO 和国内网络才是真正需要留意的地方。API 优先的架构让这块小板子能当 7×24 的 AI 助手，电费约等于一个 USB 小风扇。
 
 你可能看过不少 Hermes Agent 的教程，要么扔云服务器上，要么在主力开发机里跑。把这么个 AI 智能体塞进一块巴掌大的树莓派，听起来像是自找麻烦。
 
