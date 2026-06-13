@@ -17,9 +17,11 @@ params:
     enabled: true
     title: "`0x0cd`"
     subtitle: "AI Agent Engineer · Building intelligent context engines & memory systems"
-    imageUrl: "/images/avatars-combo.png"
-    imageTitle: "0x0cd × Emma"
-    imageWidth: 260
+    imageUrl: "/images/github-avatar.jpg"
+    imageTitle: "0x0cd"
+    imageUrlSecond: "/images/emma-avatar.jpg"
+    imageTitleSecond: "Emma"
+    imageWidth: 150
     imageHeight: 150
     buttons:
       - name: "📝 Notes"
