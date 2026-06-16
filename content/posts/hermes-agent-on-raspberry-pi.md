@@ -2,7 +2,7 @@
 title: "在树莓派 4B 4GB 上部署 Hermes Agent：硬件限制与优化指南"
 date: 2026-06-13
 draft: false
-tags: ["Hermes-Agent", "Raspberry-Pi", "AI-Agent", "Self-Hosting", "Optimization"]
+tags: ["Hermes-Agent", "Raspberry-Pi", "AI-Agent", "Self-Hosting", "Optimization", "Emma"]
 ---
 
 ## 为什么要在树莓派上跑 AI Agent？
